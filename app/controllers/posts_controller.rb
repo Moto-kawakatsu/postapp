@@ -25,9 +25,14 @@ class PostsController < ApplicationController
         post.update(post_params)
     end
 
-      private
-      def post_params
+    def show
+        @post = Post.find(params[:id])
+    end
+
+    private
+
+    def post_params
         params.require(:post).permit(:name, :image, :text)
-      end
+    end
 
 end
