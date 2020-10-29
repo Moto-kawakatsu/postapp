@@ -13,13 +13,18 @@
       </ul>
     </div>
     <% end %>
-    <p><%= @post.text %></p>
+
     <span class="name">
       <a href="/users/<%= @post.user.id %>">
         <span>投稿者</span><%= @post.user.nickname %>
       </a>
     </span>
   </div>
+  <div class="post-contents">
+  <p><%= @post.text %></p>
+  <p><%= @post.text %></p>
+  </div>
+  
   <div class="container">
     <% if current_user %>
       <%= form_with(model: [@post, @comment], local: true) do |form| %>
@@ -36,9 +41,16 @@
           <p>
             <strong><%= link_to comment.user.nickname, "/users/#{comment.user_id}" %>：</strong>
             <%= comment.text %>
+             <%= link_to post_comment_path(@post.id, comment.id), method: :delete, class: "delete-button2" do%>
+             <i class="fas fa-trash"></i>
+             <%end%>
           </p>
         <% end %>
       <% end %>
+        <% if @post.comments.length !=0 %>
+            <br>
+            <%= link_to '他のコメントを見る', post_comments_path(@post), class: "more-comments"%>
+        <%end%>
     </div>
   </div>
 </div>
