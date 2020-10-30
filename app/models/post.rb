@@ -1,5 +1,4 @@
 class Post < ApplicationRecord
-    validates :text, presence: true
     belongs_to :user
     has_many :comments
     has_many :likes, dependent: :destroy
@@ -11,4 +10,15 @@ class Post < ApplicationRecord
           Post.all
         end
     end
+
+    with_options presence: true do
+      validates :text
+      validates :title
+      validates :image
+  
+      with_options length: { maximum: 50} do
+        validates :text
+        validates :title
+    end
+  end
 end
