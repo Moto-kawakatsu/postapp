@@ -1,5 +1,6 @@
     <%= form_with(model: post, local: true) do |form| %>
-      <%= form.text_field :image, placeholder: "Image Url" %>
-      <%= form.text_area :text, placeholder: "text", rows: "10" %>
+      <%= form.text_field :image, placeholder: "画像のURL" %>
+      <%= form.text_area :title, placeholder: "題名 (50文字以内", rows: "1" %>
+      <%= form.text_area :text, placeholder: "内容（50文字以内）", rows: "5" %>
       <%= form.submit "SEND" %>
     <% end %>
