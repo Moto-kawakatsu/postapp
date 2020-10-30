@@ -2,6 +2,7 @@ class Post < ApplicationRecord
     belongs_to :user
     has_many :comments
     has_many :likes, dependent: :destroy
+    has_one_attached :image
 
     def self.search(search)
         if search != ""
@@ -12,7 +13,7 @@ class Post < ApplicationRecord
     end
 
     with_options presence: true do
-      validates :text
+      validates :text, unless: :was_attached?
       validates :title
       validates :image
   
@@ -21,4 +22,9 @@ class Post < ApplicationRecord
         validates :title
     end
   end
+
+  def was_attached?
+    self.image.attached?
+  end
+
 end
