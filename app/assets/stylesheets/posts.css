@@ -115,10 +115,11 @@ color: rgba(0, 0, 0, 0.881);
 
 .top-contents {
     border:1px solid rgba(128, 128, 128, 0.224);
-    background-color:white;
-    color:rgba(10, 9, 9, 0.511);
     padding-left:17px;
+    color:black;
+    align-items:center;
 }
+
 
 .heart-color {
     color:red;
@@ -130,7 +131,7 @@ color: rgba(0, 0, 0, 0.881);
 
 .content_post {
   background-size:contain;
-  width:100%;
+  width:120%;
   height:100%;
 
 }
@@ -138,4 +139,28 @@ color: rgba(0, 0, 0, 0.881);
 .error-message {
   font-size: 100px;
   color:black;
+}
+
+.post-title {
+  color:black;
+  position:absolute;
+  top:10px;
+  right:20%;
+  background-color:white;
+  padding:5px;
+  border:1px black solid;
+}
+
+.post-text {
+  color:rgba(0, 0, 0, 0.582);
+  position:absolute;
+  top:20%;
+  right:12%;
+  background-color:white;
+  padding:5px;
+}
+
+.message-image {
+  margin-left:20px;
+  margin-top:20px;
 }
