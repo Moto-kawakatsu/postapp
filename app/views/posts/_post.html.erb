@@ -1,6 +1,13 @@
-    <div class="content_post" style="background-image: url(<%= post.image %>);">
+    <div class="content_post">
+      <div class="main-image">  
+        <%=image_tag post.image.variant(resize: '360x360'), class: 'message-image' if post.image.attached? %>
+      </div>
+      <div>
+        <p class="post-title">題名：<%= post.title %></p>
+        <p class="post-text"><%= post.text %></p>
+      </div>
       <div class="more">
-        <span><%= image_tag 'arrow_top.png' %></span>
+        <span><%= image_tag 'arrow_top.png', class:"arrow-image" %></span>
         <ul class="more_list">
           <li>
             <%= link_to '詳細', post_path(post.id), method: :get %>
@@ -21,5 +28,3 @@
         </a>
       </span>
     </div>
-     <p class="top-contents">題名　<%= post.title %></p>
-     <p class="top-contents description">内容　<%= post.text %></p>
