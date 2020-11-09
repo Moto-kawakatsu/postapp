@@ -15,7 +15,7 @@ class Post < ApplicationRecord
     with_options presence: true do
       validates :text, unless: :was_attached?
       validates :title
-      validates :image
+      # validates :image
   
       with_options length: { maximum: 50} do
         validates :text
