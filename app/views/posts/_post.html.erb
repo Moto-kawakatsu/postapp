@@ -2,9 +2,9 @@
       <div class="main-image">  
         <%=image_tag post.image.variant(resize: '360x360'), class: 'message-image' if post.image.attached? %>
       </div>
-      <div>
-        <p class="post-title">題名：<%= post.title %></p>
-        <p class="post-text"><%= post.text %></p>
+      <div class="main-image2">  
+         <p class=>題名：<%= post.title %></p>
+        <p><%= post.text %></p>
       </div>
       <div class="more">
         <span><%= image_tag 'arrow_top.png', class:"arrow-image" %></span>
