@@ -1065,6 +1065,16 @@ footer p {
   left:0%;
 }
 
+.main-image2 {
+  position:absolute;
+  top:0%;
+  right:0%;
+  width:45%;
+  margin-right:2%;
+  color:black;
+}
+
+
 .arrow-image {
   width:15px;
 }
