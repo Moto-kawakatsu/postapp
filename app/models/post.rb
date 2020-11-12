@@ -16,12 +16,10 @@ class Post < ApplicationRecord
       validates :text, unless: :was_attached?
       validates :title
       # validates :image
-  
-      with_options length: { maximum: 50} do
-        validates :text
-        validates :title
     end
-  end
+
+      validates :text, length: { minimum: 1,maximum: 100}
+      validates :title, length: { minimum: 1,maximum:20}
 
   def was_attached?
     self.image.attached?
