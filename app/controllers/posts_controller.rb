@@ -12,7 +12,11 @@ class PostsController < ApplicationController
     end
 
     def create
-        Post.create(post_params)
+        if Post.create(post_params)
+            redirect_to posts_path
+        else
+            redirect_to new_post
+        end
     end
 
     def destroy
