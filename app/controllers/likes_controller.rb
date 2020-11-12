@@ -3,6 +3,10 @@ class LikesController < ApplicationController
     def show
       @likes = current_user.likes.order("created_at DESC")
     end
+    
+    def pop_picture
+      @ids = Like.group(:post_id).count(:post_id)
+    end
 
     def create
         # binding.pry
