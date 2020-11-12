@@ -3,11 +3,11 @@
         <%=image_tag post.image.variant(resize: '360x360'), class: 'message-image' if post.image.attached? %>
       </div>
       <div class="main-image2">  
-         <p class=>題名：<%= post.title %></p>
-        <p><%= post.text %></p>
+        <h1 class= "image-title"><%= post.title %></h1>
+        <h1 class="image-text"><%= post.text %></h1>
       </div>
       <div class="more">
-        <span><%= image_tag 'arrow_top.png', class:"arrow-image" %></span>
+        <span><%= image_tag 'glass.png', class:"arrow-image" %></span>
         <ul class="more_list">
           <li>
             <%= link_to '詳細', post_path(post.id), method: :get %>
