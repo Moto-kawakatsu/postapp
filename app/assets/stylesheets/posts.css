@@ -111,6 +111,7 @@ color: rgba(0, 0, 0, 0.881);
 .more-comments {
   color:red;
   font-size: 2vh;
+  
 }
 
 .top-contents {
@@ -161,7 +162,10 @@ color: rgba(0, 0, 0, 0.881);
 }
 
 .message-image {
-  margin-left:20px;
-  margin-top:20px;
+  /* margin-left:20px;
+  margin-top:20px; */
 }
 
+.header-buttons {
+  display:flex;
+}
