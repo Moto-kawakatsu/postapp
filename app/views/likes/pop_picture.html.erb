@@ -1,4 +1,4 @@
-<h1 class="pop-items">人気イラスト</h1>
+<h1 class="pop-items">Pop Pictures</h1>
 <div class='item-contents'>
 <ul class='item-lists'>
 <% num = 0 %>
@@ -10,7 +10,7 @@
       <%= link_to post_path(Post.find(id[0]).id) do %>
            <%= image_tag Post.find(id[0]).image.variant(resize: '360x360'), class:"item-img2" %>
            <% end %>
-                 <div class='item-info'>
+        <div class='item-info'>
          <h3 class='item-name'>
            <%= Post.find(id[0]).title %>
            <% if user_signed_in? && current_user.already_liked?(Post.find(id[0])) %>
@@ -28,7 +28,7 @@
          </h3>
 
          <div class="item-price">
-            <span><%= Post.find(id[0]).text %><br><div class='heart-btn'>
+            <%= Post.find(id[0]).text %><br><div class='heart-btn'>
          </div>
       </div>
       </div>
