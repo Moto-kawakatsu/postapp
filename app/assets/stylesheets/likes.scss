@@ -53,7 +53,7 @@
   .item-price {
     font-size: 1.8vh;
     display: flex;
-    // justify-content: space-between;
+    justify-content:center;
   }
 
   .move-to-top {
@@ -87,3 +87,10 @@
     height:360px;
   }
   
+  .pop-items {
+    display:flex;
+    justify-content:center;
+    padding:50px 0 30px 0;
+    font-size:40px;
+    font-family: 'Cherry Swash', cursive;
+    }
