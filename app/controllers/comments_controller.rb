@@ -14,7 +14,7 @@ class CommentsController < ApplicationController
         @comment = Comment.find(params[:id])
         @post = @comment.post
         if @comment.destroy
-           redirect_to post_comments_path(@post)
+           redirect_to post_path(@post)
         else
             render :show
         end       
