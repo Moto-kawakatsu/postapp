@@ -1,34 +1,11 @@
 <div class="contents row">
-  <div class="content_post" style="background-image: url(<%= @post.image %>);">
-   <% if user_signed_in? && current_user.id == @post.user_id %>
-    <div class="more">
-      <span><%= image_tag 'arrow_top.png' %></span>
-      <ul class="more_list">
-        <li>
-          <%= link_to '編集', edit_post_path(@post.id), method: :get %>
-        </li>
-        <li>
-          <%= link_to '削除', post_path(@post.id), method: :delete %>
-        </li>
-      </ul>
-    </div>
-    <% end %>
-
-    <span class="name">
-      <a href="/users/<%= @post.user.id %>">
-        <span>投稿者</span><%= @post.user.nickname %>
-      </a>
-    </span>
-  </div>
-  <div class="post-contents">
-  <p class="top-contents">題名　<%= @post.title %></p>
-  <p class="top-contents">内容　<%= @post.text %></p>
-  </div>
+    <%= render partial: "post", locals: { post: @post } %>
+</div>
   
-  <div class="container">
+  <div class="container3">
     <% if current_user %>
       <%= form_with(model: [@post, @comment], local: true) do |form| %>
-        <%= form.text_area :text, placeholder: "コメントする", rows: "2" %>
+        <%= form.text_area :text, placeholder: "コメントする", rows: "4" %>
         <%= form.submit "SEND" %>
       <% end %>
     <% else %>
