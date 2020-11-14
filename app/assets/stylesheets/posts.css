@@ -134,7 +134,7 @@ color: rgba(0, 0, 0, 0.881);
   background-size:contain;
   width:120%;
   height:100%;
-
+  margin:20px 0;
 }
 
 .error-message {
