@@ -1112,6 +1112,8 @@ footer p {
 
 .image-text {
   line-height:35px;
+  display:flex;
+  justify-content:center;
 
 }
 

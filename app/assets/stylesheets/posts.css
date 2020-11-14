@@ -161,9 +161,10 @@ color: rgba(0, 0, 0, 0.881);
   padding:5px;
 }
 
-.message-image {
+.message-image a{
   /* margin-left:20px;
   margin-top:20px; */
+ 
 }
 
 .header-buttons {
