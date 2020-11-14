@@ -6,6 +6,7 @@ class LikesController < ApplicationController
     
     def pop_picture
       @ids = Like.group(:post_id).count(:post_id)
+      @posts = Post.includes(:liked_users).sort {|a,b| b.liked_users.size <=> a.liked_users.size}
     end
 
     def create

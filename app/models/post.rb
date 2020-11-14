@@ -3,7 +3,8 @@ class Post < ApplicationRecord
     has_many :comments
     has_many :likes, dependent: :destroy
     has_one_attached :image
-
+    has_many :liked_users, through: :likes, source: :user
+    
     def self.search(search)
         if search != ""
           Post.where('text LIKE(?)', "%#{search}%")
