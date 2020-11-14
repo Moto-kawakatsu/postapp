@@ -1,34 +1,34 @@
-<h1 class="pop-items">Pop Pictures</h1>
+<h1 class="pop-items">Favorite Pictures</h1>
 <div class='item-contents'>
 <ul class='item-lists'>
 <% num = 0 %>
- <% @ids.each do |id| %>
- <% if id[1] >= 1 %>
+ <% @posts.each do |post| %>
+ <% if post.likes.ids.count >= 1 %>
       <li class='list items2'>
       <h1 class="pop-nums"><%= num += 1%></h1>
       <div class='item-img-content'>
-      <%= link_to post_path(Post.find(id[0]).id) do %>
-           <%= image_tag Post.find(id[0]).image.variant(resize: '360x360'), class:"item-img2" %>
+      <%= link_to post_path(post) do %>
+           <%= image_tag post.image.variant(resize: '360x360'), class:"item-img2" %>
            <% end %>
         <div class='item-info'>
          <h3 class='item-name'>
-           <%= Post.find(id[0]).title %>
-           <% if user_signed_in? && current_user.already_liked?(Post.find(id[0])) %>
-              <%= link_to post_likes_path(Post.find(id[0])), method: :delete do %>
+           <%= post.title %>
+           <% if user_signed_in? && current_user.already_liked?(post) %>
+              <%= link_to post_likes_path(post), method: :delete do %>
               <i class="heart-color">♥</i>
               <% end %>
-            <% elsif user_signed_in? && current_user.id == Post.find(id[0]).user_id%>
+            <% elsif user_signed_in? && current_user.id == post.user_id%>
               <i class="heart-color1">♥</i>
             <% else %>
-              <%= link_to post_likes_path(Post.find(id[0])), method: :post do %>
+              <%= link_to post_likes_path(post), method: :post do %>
               <i class="heart-color1">♥</i>
               <% end %>
             <% end %>
-            <%= Post.find(id[0]).likes.count %></span>
+            <%= post.likes.count %></span>
          </h3>
 
          <div class="item-price">
-            <%= Post.find(id[0]).text %><br><div class='heart-btn'>
+            <%= post.text %><br><div class='heart-btn'>
          </div>
       </div>
       </div>
@@ -40,4 +40,3 @@
 </div>
 <br>
 <%= link_to 'back', root_path, class: "move-to-top"%>
-       
