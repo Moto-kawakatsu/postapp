@@ -3,10 +3,11 @@
 <ul class='item-lists'>
 <% num = 0 %>
  <% @posts.each do |post| %>
- <% if post.likes.ids.count >= 1 %>
+ <% if post.likes.ids.count >= 0 %>
       <li class='list items2'>
       <h1 class="pop-nums"><%= num += 1%></h1>
       <div class='item-img-content'>
+      
       <%= link_to post_path(post) do %>
            <%= image_tag post.image.variant(resize: '360x360'), class:"item-img2" %>
            <% end %>
