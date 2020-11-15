@@ -1,6 +1,17 @@
 <div class="contents row">
   <p><%= @nickname %>さんのマイページ</p>
-  <p>メール：<%= @email %></p>
+  <div class="email-form">
+  <h5>お問合せフォーム</h5>
+  <br>
+  <%= form_with model: @contact do |f| %>
+    <%= f.label :お名前 %><br>
+    <%= f.text_field :name %><br>
+    <%= f.label :お問い合わせ内容 %><br>
+    <%= f.text_field :message %><br>
+    <%= f.submit '送信' %>
+  <% end %>
+  </div>
+
 <% @posts.each do |post| %>
  <%= render partial: "posts/post", locals: { post: post } %>
   <% end %>
