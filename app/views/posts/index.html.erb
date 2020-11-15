@@ -18,7 +18,9 @@
               <% end %>
           <% end %>
           <%= post.likes.count %>
+          <h1 class="post-time"><%=post.created_at.to_s(:datetime_jp) %></h1>
       </div>
+   
   <% end %>
 </div>
 
