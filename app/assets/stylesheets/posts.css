@@ -173,7 +173,8 @@ color: rgba(0, 0, 0, 0.881);
   margin-left:20px;
 }
 
-..name {
-  display:flex;
-
+.email-form {
+  /* display:flex;
+  justify-content:center; */
+  
 }
