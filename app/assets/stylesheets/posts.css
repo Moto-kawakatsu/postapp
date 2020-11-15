@@ -75,7 +75,6 @@ color: rgba(0, 0, 0, 0.881);
 
 .comment-texts2 {
   font-size:1.8vh;
-  /* margin-top: 3.5px; */
   display:flex;
   align-items:center;
   color:rgba(0, 0, 0, 0.938);
@@ -84,17 +83,13 @@ color: rgba(0, 0, 0, 0.881);
 .delete-button {
   color: rgba(255, 255, 255, 0.658);
   font-size: 2.5vh;
-  /* border: solid 1px #00000014; */
   margin-left: 2vh;
-  /* background-color: rgba(255, 233, 233, 0.63); */
 }
 
 .delete-button2 {
   color: rgba(0, 0, 0, 0.658);
   font-size: 2.5vh;
-  /* border: solid 1px #00000014; */
   margin-left: 2vh;
-  /* background-color: rgba(255, 233, 233, 0.63); */
 }
 
 .comment-time {
