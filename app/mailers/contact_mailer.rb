@@ -1,6 +1,7 @@
 class ContactMailer < ApplicationMailer
-    def contact_mail(contact)
-        @contact = contact
-        mail to: 'kawakatu1227@gmail.com', subjecct: 'お問い合わせ内容'
-    end
+    def send_when_admin_reply(user, contact) #メソッドに対して引数を設定
+        @user = user #ユーザー情報
+        @answer = contact.reply_text #返信内容
+        mail to: user.email, subject: '【サイト名】 お問い合わせありがとうございます'
+      end
 end
