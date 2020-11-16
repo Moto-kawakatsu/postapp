@@ -1,21 +1,8 @@
-class ContactsController < ApplicationController
-    def new
-        @contact = Contact.new
+class Admin::ContactsController < Admin::ApplicationController
+    def update
+     contact = Contact.find(params[:id]) #contact_mailer.rbの引数を指定
+     contact.update(contact_params)
+     user = contact.user
+     ContactMailer.send_when_admin_reply(user, contact).deliver
     end
-
-    def create
-        @contact = Contact.new(contact_params)
-        if @contact.save
-            ContactMailer.contact_mail(@contact).deliver
-            redirect_to new_contact_path
-        else
-            redirect_to new_contact_path
-        end
-    end
-
-    private
-
-    def contact_params
-        params.require(:contact).permit(:name, :message)
-    end
-end
+  end
