@@ -1,5 +1,7 @@
     <%= form_with(model: @post, local: true) do |form| %>
+      <% if @post.errors.any? %>
       <%=render 'shared/error_messages', model: form.object %>
+      <%end%>
       <%= form.file_field :image, placeholder: "画像のURL" %>
       <%= form.text_area :title, placeholder: "題名 (50文字以内", rows: "1" %>
       <%= form.text_area :text, placeholder: "内容（50文字以内）", rows: "5" %>
