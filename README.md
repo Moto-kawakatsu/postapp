@@ -34,8 +34,9 @@
 <br>  
 <img width="855" alt="スクリーンショット 2020-11-20 10 48 53" src="https://user-images.githubusercontent.com/70629162/99747506-fe929f80-2b1d-11eb-8bc3-f80cf31b8c95.png">
 
-いいねが
-<img width="855" alt="スクリーンショット 2020-11-20 10 48 53" src="https://user-images.githubusercontent.com/70629162/99747506-fe929f80-2b1d-11eb-8bc3-f80cf31b8c95.png">
+人気順ボタンを押すと、いいねが多く付いている順にイラストを表示しているページに遷移します。
+<img width="1294" alt="スクリーンショット 2020-11-20 11 09 18" src="https://user-images.githubusercontent.com/70629162/99748927-d7899d00-2b20-11eb-9d9b-4da1589dda36.png">
+
 
 
 # 本番環境
