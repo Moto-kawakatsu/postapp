@@ -14,9 +14,7 @@
 # アプリケーションの説明 
 ユーザーはタイトルと説明を記述し投稿することができます。
 <br>  
-<div align="center">
-<img src="<img width="660" alt="スクリーンショット 2020-11-20 10 11 41" src="https://user-images.githubusercontent.com/70629162/99743340-d3598180-2b18-11eb-8c34-38ebe21f6727.png">" alt="属性" title="タイトル">
-</div>
+
 <br>
 <img width="1439" alt="スクリーンショット 2020-11-20 10 09 01" src="https://user-images.githubusercontent.com/70629162/99743239-a2794c80-2b18-11eb-8c40-b884b0b8ef3f.png">
 
