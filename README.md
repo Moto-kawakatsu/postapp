@@ -22,7 +22,7 @@
 <h4>投稿者が虫眼鏡の上にカーソルを持っていくと「詳細」「編集」「削除」のボタンが出てきます。</h4>
 <div align="center">
 <img width="784" alt="スクリーンショット 2020-11-20 10 25 44" src="https://user-images.githubusercontent.com/70629162/99744289-c2aa0b00-2b1a-11eb-8b4c-81d51ef2f3a5.png">
-<div align="center">
+</div>
 <br>
 <br>
 詳細ページではイラストに対してコメントをすることができます。
@@ -35,7 +35,7 @@
 <img width="1440" alt="スクリーンショット 2020-11-20 10 40 00" src="https://user-images.githubusercontent.com/70629162/99745324-c0e14700-2b1c-11eb-909a-06dad341b845.png">
 </div>
 <br>  
-
+<div align="center">https://4.bp.blogspot.com/-VtfK8e7-guk/UNgpNEi_IEI/AAAAAAAAJZI/PuIiQXbcfJY/s1600/mark_arrow_down.png</div>
 <br>  
 
 
