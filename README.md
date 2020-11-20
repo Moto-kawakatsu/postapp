@@ -24,6 +24,7 @@
 <br>  
 <br>    
 <h2>投稿者が虫眼鏡の上にカーソルを持っていくと「詳細」「編集」「削除」のボタンが出てきます。</h2>
+<br>    
 <img width="829" alt="スクリーンショット 2020-11-20 10 57 02" src="https://user-images.githubusercontent.com/70629162/99748068-21718380-2b1f-11eb-9b3d-479808650ba3.png">
 <br>  
 <br>    
@@ -37,6 +38,7 @@
                          <img width="225" alt="スクリーンショット 2020-11-20 11 15 25" src="https://user-images.githubusercontent.com/70629162/99749354-b2e1f500-2b21-11eb-9675-302851deac28.png">
 <h2>検索した結果...
 キーワードの『TWICE』に関連した画像のみ表示！</h2>
+<br>  
 <img width="855" alt="スクリーンショット 2020-11-20 10 48 53" src="https://user-images.githubusercontent.com/70629162/99747506-fe929f80-2b1d-11eb-8bc3-f80cf31b8c95.png">
 <br>
 <br>  
