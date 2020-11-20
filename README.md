@@ -2,7 +2,7 @@
 
 # 概要
 主にイラストを
-主にイラストや写真を投稿し、ユーザー同士が評価し合うアプリケーションです。
+主にイラストを投稿しユーザー同士が評価し合うアプリケーションです。
 　
 
 # 制作背景
@@ -15,9 +15,10 @@
 ユーザーはタイトルと説明を記述し投稿することができます。
 <br>  
 <div align="center">
-<img width="660" alt="スクリーンショット 2020-11-20 10 11 41" src="https://user-images.githubusercontent.com/70629162/99743743-a8bbf880-2b19-11eb-8813-68266ff2276a.png">
+<img width="650" alt="スクリーンショット 2020-11-20 10 17 44" src="https://user-images.githubusercontent.com/70629162/99743823-cee19880-2b19-11eb-9ea4-a7a174e7e85e.png">
 </div>
 <br>
+投稿されたイラストはユーザー全員が以下の写真のように見ることができます。
 <img width="1439" alt="スクリーンショット 2020-11-20 10 09 01" src="https://user-images.githubusercontent.com/70629162/99743239-a2794c80-2b18-11eb-8c40-b884b0b8ef3f.png">
 
 
