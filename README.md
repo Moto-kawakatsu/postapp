@@ -14,18 +14,19 @@
 # アプリケーションの説明 
 ユーザーはタイトルと説明を記述し投稿することができます。
 <br>    
-<img width="650" alt="スクリーンショット 2020-11-20 10 17 44" src="https://user-images.githubusercontent.com/70629162/99743823-cee19880-2b19-11eb-9ea4-a7a174e7e85e.png">
+<img width="687" alt="スクリーンショット 2020-11-20 10 55 52" src="https://user-images.githubusercontent.com/70629162/99747996-f7b85c80-2b1e-11eb-9e07-c7f91d5968f4.png">
 <br>  
 投稿されたイラストはユーザー全員が以下の写真のように見ることができます。
 <img width="879" alt="スクリーンショット 2020-11-20 10 53 24" src="https://user-images.githubusercontent.com/70629162/99747817-a019f100-2b1e-11eb-9780-a9644796b56d.png">
 
   
 投稿者が虫眼鏡の上にカーソルを持っていくと「詳細」「編集」「削除」のボタンが出てきます。
-<img width="784" alt="スクリーンショット 2020-11-20 10 25 44" src="https://user-images.githubusercontent.com/70629162/99744289-c2aa0b00-2b1a-11eb-8b4c-81d51ef2f3a5.png">
+<img width="829" alt="スクリーンショット 2020-11-20 10 57 02" src="https://user-images.githubusercontent.com/70629162/99748068-21718380-2b1f-11eb-9b3d-479808650ba3.png">
 <br>
 <br>  
 詳細ページではイラストに対してコメントをすることができます。
-<img width="785" alt="スクリーンショット 2020-11-20 10 51 30" src="https://user-images.githubusercontent.com/70629162/99747671-5b8e5580-2b1e-11eb-8df5-5fdd92576b2e.png">
+<img width="822" alt="スクリーンショット 2020-11-20 10 54 55" src="https://user-images.githubusercontent.com/70629162/99747935-d5beda00-2b1e-11eb-8e7b-ce1296b5189a.png">
+
 <br>  
 検索機能を用いて気になる画像のみを表示させることもできます。
 <img width="846" alt="スクリーンショット 2020-11-20 10 47 53" src="https://user-images.githubusercontent.com/70629162/99747435-da36c300-2b1d-11eb-9bd3-4d4f2b4d2862.png">
