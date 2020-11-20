@@ -12,16 +12,16 @@
     
   
 # アプリケーションの説明 
-ユーザーはタイトルと説明を記述し投稿することができます。
+<h4>ユーザーはタイトルと説明を記述し投稿することができます。</h4>
 <br>  
 <div align="center">
 <img width="650" alt="スクリーンショット 2020-11-20 10 17 44" src="https://user-images.githubusercontent.com/70629162/99743823-cee19880-2b19-11eb-9ea4-a7a174e7e85e.png">
 </div>
 <br>
-投稿されたイラストはユーザー全員が以下の写真のように見ることができます。
+<h4>投稿されたイラストはユーザー全員が以下の写真のように見ることができます。</h4>
 <img width="1439" alt="スクリーンショット 2020-11-20 10 09 01" src="https://user-images.githubusercontent.com/70629162/99743239-a2794c80-2b18-11eb-8c40-b884b0b8ef3f.png">
   
-<h2>投稿者が虫眼鏡の上にカーソルを持っていくと「詳細」「編集」「削除」のボタンが出てきます。</h2>
+<h4>投稿者が虫眼鏡の上にカーソルを持っていくと「詳細」「編集」「削除」のボタンが出てきます。</h4>
 <div align="center">
 <img width="784" alt="スクリーンショット 2020-11-20 10 25 44" src="https://user-images.githubusercontent.com/70629162/99744289-c2aa0b00-2b1a-11eb-8b4c-81d51ef2f3a5.png">
 <div align="center">
