@@ -14,9 +14,7 @@
 # アプリケーションの説明 
 ユーザーはタイトルと説明を記述し投稿することができます。
 <br>  
-<div align="center">
 <img width="650" alt="スクリーンショット 2020-11-20 10 17 44" src="https://user-images.githubusercontent.com/70629162/99743823-cee19880-2b19-11eb-9ea4-a7a174e7e85e.png">
-</div>
 <br>
 <h4>投稿されたイラストはユーザー全員が以下の写真のように見ることができます。</h4>
 <img width="1439" alt="スクリーンショット 2020-11-20 10 09 01" src="https://user-images.githubusercontent.com/70629162/99743239-a2794c80-2b18-11eb-8c40-b884b0b8ef3f.png">
@@ -27,15 +25,19 @@
 <div align="center">
 <br>
 <br>
-投稿されたメッセージをクリックすると、そのメッセージの質問ページに遷移する。  
-生徒は他の生徒がした質問に共感ボタンを押すことで意思を表示できる。  
+詳細ページではイラストに対してコメントをすることができます。
+<div align="center">
+<img width="1438" alt="スクリーンショット 2020-11-20 10 37 00" src="https://user-images.githubusercontent.com/70629162/99745098-55977500-2b1c-11eb-8db4-29e2004a86f1.png">
+</div>
 <br>
-<img width="800" alt="スクリーンショット 2020-11-08 17 11 07" src="https://user-images.githubusercontent.com/70629162/98460210-7dfea580-21e5-11eb-9578-4ba551e55d75.png">
+検索機能を用いて気になる画像のみを表示させることもできます。
+<div align="center">
+<img width="1440" alt="スクリーンショット 2020-11-20 10 40 00" src="https://user-images.githubusercontent.com/70629162/99745324-c0e14700-2b1c-11eb-909a-06dad341b845.png">
+</div>
 <br>  
-質問ページ投稿された質問をクリックすると、回答ページに遷移する。  
-質問に回答できる生徒がいれば回答する。質問した生徒は問題が解決した場合、解決ボタンを押す。
+
 <br>  
-<img width="800" alt="スクリーンショット 2020-11-08 17 24 45" src="https://user-images.githubusercontent.com/70629162/98460398-79d38780-21e7-11eb-9861-18e6ca571fa4.png">
+
 
 # 本番環境
 URL：https://recture.herokuapp.com/  
