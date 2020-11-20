@@ -21,10 +21,9 @@
 投稿されたイラストはユーザー全員が以下の写真のように見ることができます。
 <img width="1439" alt="スクリーンショット 2020-11-20 10 09 01" src="https://user-images.githubusercontent.com/70629162/99743239-a2794c80-2b18-11eb-8c40-b884b0b8ef3f.png">
   
-
+<h2>投稿者が虫眼鏡の上にカーソルを持っていくと「詳細」「編集」「削除」のボタンが出てきます。</h2>
 <div align="center">
-投稿者が虫眼鏡の上にカーソルを持っていくと「詳細」「編集」「削除」のボタンが出てきます。
-<img width="266" alt="スクリーンショット 2020-11-20 10 24 22" src="https://user-images.githubusercontent.com/70629162/99744197-91c9d600-2b1a-11eb-88e7-ea60c7cf1f99.png">
+<img width="784" alt="スクリーンショット 2020-11-20 10 25 44" src="https://user-images.githubusercontent.com/70629162/99744289-c2aa0b00-2b1a-11eb-8b4c-81d51ef2f3a5.png">
 <div align="center">
 <br>
 <br>
