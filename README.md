@@ -42,6 +42,10 @@
 <br>  
 <h2>人気順ボタンを押すと、いいねが多く付いている順にイラストを表示しているページに遷移します。</h2>
 <img width="1294" alt="スクリーンショット 2020-11-20 11 09 18" src="https://user-images.githubusercontent.com/70629162/99748927-d7899d00-2b20-11eb-9d9b-4da1589dda36.png">
+<br>
+<br>  
+<h2>他のユーザーのページにて、お問い合わせすることができる(ようにする予定)</h2>
+<img width="855" alt="スクリーンショット 2020-11-20 11 31 07" src="https://user-images.githubusercontent.com/70629162/99750519-e3c32980-2b23-11eb-84ab-7596b4e3aa33.png">
 
 
 
