@@ -33,13 +33,12 @@
 <br>  
 <h2>検索機能を用いて気になる画像のみを表示させることもできます。</h2>
 <img width="853" alt="スクリーンショット 2020-11-20 11 13 25" src="https://user-images.githubusercontent.com/70629162/99749233-6b5b6900-2b21-11eb-8d97-37545606c4ca.png">
-<img width="225" alt="スクリーンショット 2020-11-20 11 15 25" src="https://user-images.githubusercontent.com/70629162/99749354-b2e1f500-2b21-11eb-9675-302851deac28.png">
-
+                         <img width="225" alt="スクリーンショット 2020-11-20 11 15 25" src="https://user-images.githubusercontent.com/70629162/99749354-b2e1f500-2b21-11eb-9675-302851deac28.png">
 <h2>検索した結果...
 キーワードの『TWICE』に関連した画像のみ表示！</h2>
 <img width="855" alt="スクリーンショット 2020-11-20 10 48 53" src="https://user-images.githubusercontent.com/70629162/99747506-fe929f80-2b1d-11eb-8bc3-f80cf31b8c95.png">
-
-
+<br>
+<br>  
 <h2>人気順ボタンを押すと、いいねが多く付いている順にイラストを表示しているページに遷移します。</h2>
 <img width="1294" alt="スクリーンショット 2020-11-20 11 09 18" src="https://user-images.githubusercontent.com/70629162/99748927-d7899d00-2b20-11eb-9d9b-4da1589dda36.png">
 
