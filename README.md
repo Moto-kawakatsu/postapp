@@ -17,10 +17,9 @@
 <br>
 <img width="687" alt="スクリーンショット 2020-11-20 10 55 52" src="https://user-images.githubusercontent.com/70629162/99747996-f7b85c80-2b1e-11eb-9e07-c7f91d5968f4.png">
 <br>
-<br>  
 <h2>投稿されたイラストはユーザー全員が以下の写真のように見ることができます。</h2>
-<br>
-<br>
+<br>  
+<br>  
 <img width="879" alt="スクリーンショット 2020-11-20 10 53 24" src="https://user-images.githubusercontent.com/70629162/99747817-a019f100-2b1e-11eb-9780-a9644796b56d.png">
 <br>
 <br>  
