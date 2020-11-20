@@ -50,7 +50,6 @@
 
 
 # 本番環境
-URL：
 user : admin　
 pass : 2222 
   
