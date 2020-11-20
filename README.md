@@ -29,7 +29,7 @@
 
 <br>  
 検索機能を用いて気になる画像のみを表示させることもできます。
-<img width="846" alt="スクリーンショット 2020-11-20 10 47 53" src="https://user-images.githubusercontent.com/70629162/99747435-da36c300-2b1d-11eb-9bd3-4d4f2b4d2862.png">
+<img width="822" alt="スクリーンショット 2020-11-20 11 01 51" src="https://user-images.githubusercontent.com/70629162/99748396-ce4c0080-2b1f-11eb-8557-7a807e1288fc.png">
 <br>  
 <br>  
 <img width="855" alt="スクリーンショット 2020-11-20 10 48 53" src="https://user-images.githubusercontent.com/70629162/99747506-fe929f80-2b1d-11eb-8bc3-f80cf31b8c95.png">
