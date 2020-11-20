@@ -14,7 +14,8 @@
 # アプリケーションの説明 
 生徒は授業で使われたPowerPointやKeyNoteのスライドを、URLからもう一度見ることができる  
 <br>
-<img width="800" alt="スクリーンショット 2020-11-08 16 30 28" src="https://user-images.githubusercontent.com/70629162/98459618-e0ed3e00-21df-11eb-8a80-61adb570f1a4.png">
+<img width="1434" alt="スクリーンショット 2020-11-20 9 56 54" src="https://user-images.githubusercontent.com/70629162/99742508-f6833180-2b16-11eb-9552-f6608ea9ef39.png">
+
 <br>
 <br>
 投稿されたメッセージをクリックすると、そのメッセージの質問ページに遷移する。  
