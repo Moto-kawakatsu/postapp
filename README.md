@@ -45,7 +45,7 @@
 <br>
 <br>  
 <h2>他のユーザーのページにて、お問い合わせすることができる(ようにする予定)</h2>
-<img width="855" alt="スクリーンショット 2020-11-20 11 31 07" src="https://user-images.githubusercontent.com/70629162/99750519-e3c32980-2b23-11eb-84ab-7596b4e3aa33.png">
+<img width="1090" alt="スクリーンショット 2020-11-20 11 33 44" src="https://user-images.githubusercontent.com/70629162/99750732-4288a300-2b24-11eb-83d4-9c988798ee9a.png">
 
 
 
