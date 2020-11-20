@@ -19,7 +19,7 @@ class Post < ApplicationRecord
       validates :image
     end
 
-      validates :text, length: { minimum: 1,maximum: 100}
+      validates :text, length: { minimum: 1,maximum: 140}
       validates :title, length: { minimum: 1,maximum:20}
 
   def was_attached?
