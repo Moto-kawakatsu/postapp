@@ -12,7 +12,7 @@
     
   
 # アプリケーションの説明 
-<h3 align="center">ユーザーはタイトルと説明を記述し投稿することができます。</h3>
+ユーザーはタイトルと説明を記述し投稿することができます。
 <br>  
 <div align="center">
 <img width="650" alt="スクリーンショット 2020-11-20 10 17 44" src="https://user-images.githubusercontent.com/70629162/99743823-cee19880-2b19-11eb-9ea4-a7a174e7e85e.png">
