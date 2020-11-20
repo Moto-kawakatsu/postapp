@@ -18,15 +18,15 @@
 <img width="687" alt="スクリーンショット 2020-11-20 10 55 52" src="https://user-images.githubusercontent.com/70629162/99747996-f7b85c80-2b1e-11eb-9e07-c7f91d5968f4.png">
 <br>
 <h2>投稿されたイラストはユーザー全員が以下の写真のように見ることができます。</h2>
-<br>  
-<br>  
+<br>    
+<br>    
 <img width="879" alt="スクリーンショット 2020-11-20 10 53 24" src="https://user-images.githubusercontent.com/70629162/99747817-a019f100-2b1e-11eb-9780-a9644796b56d.png">
-<br>
 <br>  
+<br>    
 <h2>投稿者が虫眼鏡の上にカーソルを持っていくと「詳細」「編集」「削除」のボタンが出てきます。</h2>
 <img width="829" alt="スクリーンショット 2020-11-20 10 57 02" src="https://user-images.githubusercontent.com/70629162/99748068-21718380-2b1f-11eb-9b3d-479808650ba3.png">
-<br>
 <br>  
+<br>    
 <h2>詳細ページではイラストに対してコメントをすることができます。</h2>
 <br>
 <img width="822" alt="スクリーンショット 2020-11-20 10 54 55" src="https://user-images.githubusercontent.com/70629162/99747935-d5beda00-2b1e-11eb-8e7b-ce1296b5189a.png">
