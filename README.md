@@ -12,9 +12,13 @@
     
   
 # アプリケーションの説明 
-生徒は授業で使われたPowerPointやKeyNoteのスライドを、URLからもう一度見ることができる  
+ユーザーはタイトルと説明を記述し投稿することができます。
+<br>  
+<img width="660" alt="スクリーンショット 2020-11-20 10 11 41" src="https://user-images.githubusercontent.com/70629162/99743340-d3598180-2b18-11eb-8c34-38ebe21f6727.png">
+
 <br>
-<img width="1434" alt="スクリーンショット 2020-11-20 9 56 54" src="https://user-images.githubusercontent.com/70629162/99742508-f6833180-2b16-11eb-9552-f6608ea9ef39.png">
+<img width="1439" alt="スクリーンショット 2020-11-20 10 09 01" src="https://user-images.githubusercontent.com/70629162/99743239-a2794c80-2b18-11eb-8c40-b884b0b8ef3f.png">
+
 
 <br>
 <br>
