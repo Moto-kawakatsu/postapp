@@ -97,3 +97,61 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+# テーブル設計
+
+# users テーブル
+
+| Column           | Type   | Options     |
+| ---------------- | ------ | ----------- |
+| nickname         | string | null: false |
+| email            | string | null: false |
+| password         | string | null: false |
+| password_confirm | string | null: false |
+
+### Association
+
+- has_many :posts
+
+## posts テーブル
+
+| Column               | Type       | Options     |
+| -------------------- | ---------- | ----------- |
+| user                 | references | null: false |
+| title                | string     | null: false |
+| text                 | string     | null: false |
+
+
+### Association
+
+- belongs_to :user
+- has_one :order
+
+
+## likes テーブル
+
+| Column           | Type       | Options     |
+| ---------------- | ---------- | ----------- |
+| post_id          | references | null: false |
+| user_id          | references | null: false |
+
+### Association
+
+- belongs_to :user
+- belongs_to :post
+
+
+## comments テーブル
+
+| Column           | Type       | Options     |
+| ---------------- | ---------- | ----------- |
+| post_id          | references | null: false |
+| user_id          | references | null: false |
+| text             | string     | null: false |
+
+
+### Association
+
+- belongs_to :user
+- belongs_to :item
