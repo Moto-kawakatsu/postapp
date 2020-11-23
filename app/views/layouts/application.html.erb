@@ -14,7 +14,7 @@
   <body>
     <header class="header">
       <div class="header__bar row">
-        <h1 class="grid-6"><%=link_to "Pic Works", root_path%></h1>
+        <h1 class="grid-6"><%=link_to "Post App", root_path%></h1>
           <% if user_signed_in? %>
             <div class="user_nav grid-6">
               <span><%= current_user.nickname %>さん
@@ -42,7 +42,7 @@
     <%= yield %>
     <footer>
       <p>
-        Copyright ArtShow 2020.
+        Copyright PostApp 2020.
       </p>
     </footer>
   </body>
