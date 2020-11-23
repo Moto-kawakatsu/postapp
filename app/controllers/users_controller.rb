@@ -4,5 +4,5 @@ class UsersController < ApplicationController
         @nickname = user.nickname
         @email = user.email
         @posts = user.posts
-      end
+     end
 end
