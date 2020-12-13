@@ -31,6 +31,7 @@
 .item-img-content {
   position: relative;
   width:360px;
+  text-align:center;
   
 }
   .item-info {
@@ -73,19 +74,18 @@
 }
 
 .item-lists {
-    //   margin:10px;
-    // display:inline-block;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
-
-
 }
 
 .item-img2 {
-    width:360px;
+    width:auto;
     height:360px;
+    
   }
+
+  .item-image-wrapper {}
   
   .pop-items {
     display:flex;
