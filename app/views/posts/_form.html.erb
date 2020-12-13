@@ -3,7 +3,9 @@
       <%=render 'shared/error_messages', model: form.object %>
       <%end%>
       <%= form.file_field :image, placeholder: "画像のURL" %>
+      <div id="image-list"></div>
       <%= form.text_area :title, placeholder: "題名 (20文字以内)", rows: "1" %>
       <%= form.text_area :text, placeholder: "内容（140文字以内）", rows: "5" %>
       <%= form.submit "SEND" %>
+          <%= image_tag @post.image, id: 'image' if @post.image.present? %> 
     <% end %>
